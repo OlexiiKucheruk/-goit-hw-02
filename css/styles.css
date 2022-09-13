@@ -1,4 +1,8 @@
 body {
   background-color: tomato;
 }
-.site-nav a:hover {}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: black;
+}
+.site-nav a:active {color: teal;}
