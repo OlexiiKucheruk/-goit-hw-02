@@ -40,9 +40,7 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
-.link-logo, {
 
-}
 .site-nav {
   
 position: absolute;
@@ -270,3 +268,26 @@ background: #2F303A;
   font-size: 26px;
   line-height: 1.19;
 }
+
+.done-works {position: absolute;
+width: 370px;
+height: 294px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.done-works-type {position: absolute;
+width: 322px;
+height: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;}
