@@ -42,110 +42,118 @@ body {
 }
 
 .site-nav {
-  
-position: absolute;
-width: 72px;
-height: 16px;
-left: 548px;
-top: 32px;
+  position: absolute;
+  width: 72px;
+  height: 16px;
+  left: 548px;
+  top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-color: #212121;
+  color: #212121;
 }
 
-.studio-two {position: absolute;
-width: 45px;
-height: 16px;
-left: 453px;
-top: 32px;
+.studio-two {
+  position: absolute;
+  width: 45px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-color: #212121;
+  color: #212121;
 }
 
-.portfolio {position: absolute;
-width: 72px;
-height: 16px;
-left: 548px;
-top: 32px;
+.portfolio {
+  position: absolute;
+  width: 72px;
+  height: 16px;
+  left: 548px;
+  top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-color: #212121;}
+  color: #212121;
+}
 
-.contact {position: absolute;
-width: 64px;
-height: 16px;
-left: 670px;
-top: 32px;
+.contact {
+  position: absolute;
+  width: 64px;
+  height: 16px;
+  left: 670px;
+  top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;}
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 
-.mail {position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
+.mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-color: #2196F3;}
+  color: #2196f3;
+}
 
-.tel {position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
+.tel {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 
-color: #757575;}
+  color: #757575;
+}
 
 .link-logo {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
-.studio {  color: var(--accent-color)
-
+.studio {
+  color: var(--accent-color);
 }
 .hero {
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
 
-background: #2F303A;
+  background: #2f303a;
 }
 .hero-title {
   color: var(--white-color);
@@ -246,25 +254,28 @@ background: #2F303A;
   line-height: 1.19;
 }
 
-.done-works {position: absolute;
-width: 370px;
-height: 294px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 36px;
-letter-spacing: 0.06em;
-color: #212121;
+.done-works {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
 
-.done-works-type {position: absolute;
-width: 322px;
-height: 30px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.03em;
-color: #757575;}
+.done-works-type {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
