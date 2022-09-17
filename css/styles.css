@@ -134,32 +134,9 @@ color: #757575;}
 
 .link-logo {
   color: var(--accent-color)
-
-  position: absolute;
-  width: 145px;
-  height: calc(31 /26);
-  left: 215px;
-  top: 24px;
-
-  font-family: 'Raleway';
-  font-size: 26px;
-  line-height: 31px;
-  color: #2196f3;
 }
 .studio {  color: var(--accent-color)
 
-  position: absolute;
-  width: 145px;
-  height: calc(31 /26);
-  left: 215px;
-  top: 24px;
-
-  font-family: 'Raleway';
-  font-size: 26px;
-  line-height: calc;
-  color: #000000;}
-.list-style {
-  list-style: none;
 }
 .hero {
 position: absolute;
