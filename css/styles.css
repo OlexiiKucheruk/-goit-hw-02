@@ -65,8 +65,6 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
-  color: #212121;
 }
 
 .portfolio {
@@ -82,8 +80,6 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
-  color: #212121;
 }
 
 .contact {
@@ -115,7 +111,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: #757575;
 }
 
 .tel {
@@ -298,10 +294,6 @@ color: #FFFFFF;
 }
 
 .done-works-type {
-  position: absolute;
-  width: 322px;
-  height: 30px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -309,3 +301,47 @@ color: #FFFFFF;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+.studio-white {
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+
+color: var(--white-color);
+}
+
+.box-one {box-sizing: border-box;
+
+width: 370px;
+height: 404px;
+left: 215px;
+top: 1130px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;}
+
+.box-two {box-sizing: border-box;
+
+width: 370px;
+height: 404px;
+left: 615px;
+top: 1130px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;}
+
+.box-three {box-sizing: border-box;
+
+width: 370px;
+height: 404px;
+left: 1015px;
+top: 1130px;
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;}
