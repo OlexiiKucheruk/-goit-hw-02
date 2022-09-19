@@ -51,8 +51,9 @@ body {
 }
 
 .studio-two {
-  height: 10.02em; 
-  line-height: calc(31 / 26);}
+  font-weight: 500;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.02em;}
 
 .portfolio {
   font-weight: 500;
@@ -103,8 +104,6 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  color: var(--white-color);
 }
 .button {
  
