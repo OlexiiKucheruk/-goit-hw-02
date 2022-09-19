@@ -41,7 +41,7 @@ body {
   color: var(--accent-color);
 }
 
-.site-nav {
+.nav-list {
   
   font-weight: 500;
   line-height: calc(31 / 26);
@@ -50,37 +50,20 @@ body {
   color: #212121;
 }
 
-.studio-two {
-  font-weight: 500;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.02em;}
-
-.portfolio {
-  font-weight: 500;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.02em;
-}
-
-.contact {
-  font-weight: 500;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.02em;
-}
-
-.mail {
+.contact-mail {
  font-weight: 500;
  line-height: calc(31 / 26);
   letter-spacing: 0.02em;
 
-  color: var(--b);
+  color: var(--primary-text-color);
 }
 
-.tel {
+.contact-tel {
   font-weight: 500;
   line-height: calc(31 / 26);
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .link-logo {
@@ -96,52 +79,54 @@ body {
   color: var(--black-color);
 }
 
+.hero {background-color:#2F303A;}
+
 .hero-title {
   
   font-weight: 900;
+  font-size: 44px;
   line-height: calc(31 / 26);
-
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--title-text-color)
+  color: var(--white-color)
 }
-.button {
+.button-item {
  
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
-.button:hover,
-.button:focus {
+.button-item:hover,
+.button-item:focus {
   background-color: #188ce8;
 }
 .benefits-text {
     line-height: calc(31 / 26);
-    color: var(--black-color);
+    color: var(--primary-text-color);
 }
 .team {
   background-color: var(--second-body-color);
 }
-.titles-team {
+.team-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: calc(31 / 26);
 }
 
-.post {
+.team-position {
   font-size: 16px;
   line-height: calc(31 / 26);
 }
-.title {
+.section-title {
   color: var(--title-text-color);
   font-size: 36px;
   line-height: calc(31 / 26);
 }
 .benefits-titles {
   color: var(--title-text-color);
-  
+  font-size: inherit;
   line-height: calc(31 / 26);
   text-transform: uppercase;
 }
@@ -185,13 +170,22 @@ body {
 .address {
   font-style: normal;
 }
+
+.mail-footer:focus,
+.mail-footer:hover {color: var(--accent-color)}
+
+.tel-footer:focus
+.tel-footer:hover {color: var(--accent-color)}
+
+.tel-footer, .mail-footer {color: rgba(255, 255, 255, 0.6);}
+
 .footer-link {
   font-family: 'Raleway';
   font-size: 26px;
   line-height: calc(31 / 26);
 }
 
-.done-works {
+.project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(31 / 26);
@@ -199,7 +193,7 @@ body {
   color: var(--black-color);
 }
 
-.done-works-type {
+.project-title-type {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -221,3 +215,14 @@ body {
 
   color: var(--white-color);
 }
+
+.nav:focus,
+.nav:hover {color: var(--accent-color)}
+
+.nav-link {font-weight: 500;
+line-height: calc(31 / 26);
+letter-spacing: 00.02em;}
+.contact-list:focus,
+.contact-list:hover {color: var(--accent-color)}
+
+.color-accent {color: #2196F3;}
