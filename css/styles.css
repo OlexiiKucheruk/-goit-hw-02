@@ -13,7 +13,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
   letter-spacing: 0.03em;
-  font-size: 400;
+  font-size: 14px;
 }
 
 .head {
@@ -42,11 +42,7 @@ body {
 }
 
 .site-nav {
-  width: 72px;
-  height: 16px;
-  left: 548px;
-  top: 32px;
-
+  
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -55,77 +51,32 @@ body {
 }
 
 .studio-two {
-  position: absolute;
-  width: 45px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
+  height: 10.02em; 
+  line-height: calc(31 / 26);}
 
 .portfolio {
-  position: absolute;
-  width: 72px;
-  height: 16px;
-  left: 548px;
-  top: 32px;
-
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: calc(31 / 26);
   letter-spacing: 0.02em;
 }
 
 .contact {
-  position: absolute;
-  width: 64px;
-  height: 16px;
-  left: 670px;
-  top: 32px;
-
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: calc(31 / 26);
   letter-spacing: 0.02em;
 }
 
 .mail {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+ font-weight: 500;
+ line-height: calc(31 / 26);
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--b);
 }
 
 .tel {
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: calc(31 / 26);
   letter-spacing: 0.02em;
 
   color: #757575;
@@ -133,67 +84,31 @@ body {
 
 .link-logo {
   color: var(--accent-color);
-}
-
-.logo {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
 
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-
-  color: #2196f3;
 }
+
 .studio {
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-
   color: var(--black-color);
 }
-.hero {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
 
-  background: #2f303a;
-}
 .hero-title {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-
+  
   font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
+  line-height: calc(31 / 26);
 
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white-color);
 }
 .button {
-  position: absolute;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
-
-  background: #2196f3;
+ 
+  background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
@@ -202,9 +117,8 @@ body {
 .button:focus {
   background-color: #188ce8;
 }
-.text {
-  font-size: 14px;
-  line-height: 1.17;
+.benefits-text {
+    line-height: 1.17;
 }
 .team {
   background-color: var(--second-body-color);
@@ -225,9 +139,9 @@ body {
   font-size: 36px;
   line-height: 1.16;
 }
-.titles {
+.benefits-titles {
   color: var(--title-text-color);
-  font-weight: 700;
+  
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -267,7 +181,7 @@ body {
 .mailto-link,
 .tel-link {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-text-color);
 }
 .address {
   font-style: normal;
@@ -279,16 +193,11 @@ body {
 }
 
 .done-works {
-  position: absolute;
-  width: 370px;
-  height: 294px;
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: calc(31 / 26);
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--black-color);
 }
 
 .done-works-type {
@@ -312,40 +221,4 @@ body {
   line-height: calc(31 / 26);
 
   color: var(--white-color);
-}
-
-.box-one {
-  box-sizing: border-box;
-
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-
-.box-two {
-  box-sizing: border-box;
-
-  width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-
-.box-three {
-  box-sizing: border-box;
-
-  width: 370px;
-  height: 404px;
-  left: 1015px;
-  top: 1130px;
-
-  background: #ffffff;
-  border: 1px solid #eeeeee;
 }
