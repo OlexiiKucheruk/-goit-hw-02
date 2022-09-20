@@ -34,9 +34,7 @@ body {
   text-decoration: none;
   color: inherit;
 }
-.link:hover {
-  color: var(--accent-color);
-}
+.link:hover,
 .link:focus {
   color: var(--accent-color);
 }
