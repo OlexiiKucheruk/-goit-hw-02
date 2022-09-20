@@ -49,7 +49,7 @@ body {
   color: #212121;
 }
 
-.contact-mail {
+.contact-link {
   font-weight: 500;
   line-height: calc(31 / 26);
   letter-spacing: 0.02em;
@@ -57,13 +57,6 @@ body {
   color: var(--primary-text-color);
 }
 
-.contact-tel {
-  font-weight: 500;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.02em;
-
-  color: var(--primary-text-color);
-}
 
 .link-logo {
   color: var(--accent-color);
@@ -157,9 +150,6 @@ body {
 }
 .footer {
   background-color: var(--second-background-color);
-  color: var(--white-color);
-  font-size: 14px;
-  line-height: calc(31 / 26);
 }
 .mailto-link,
 .tel-link {
@@ -170,17 +160,12 @@ body {
   font-style: normal;
 }
 
-.mail-footer:focus,
-.mail-footer:hover {
+.contact-link-footer:focus,
+.contact-link-footer:hover {
   color: var(--accent-color);
 }
 
-.tel-footer:focus .tel-footer:hover {
-  color: var(--accent-color);
-}
-
-.tel-footer,
-.mail-footer {
+.contact-link-footer {
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -198,7 +183,7 @@ body {
   color: var(--black-color);
 }
 
-.project-title-type {
+.project-description {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
