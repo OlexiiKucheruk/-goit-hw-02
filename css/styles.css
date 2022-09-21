@@ -222,3 +222,4 @@ body {
 .color-accent {
   color: #2196f3;
 }
+.address {color: var(--white-color);}
